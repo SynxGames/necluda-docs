@@ -68,7 +68,7 @@ Not at all! Necluda will handle all of that for you, simply have two different v
 This is a feature which is not released to the general public, and you will encounter issues with other plugins. This should be avoided unless you are
 an enterprise user running only necluda/verified plugins.
 
-## MiniMessageConfig
+## MiniMessageConfig (& custom tags)
 
 The minimessage configuration is split into three main sections, `resource-pack-icons`, `custom-colors` and `symbol-icons`.
 This is a simple translation map which allows you to define RP icons, custom colors or symbols to use across all Necluda-based configs, for example:
@@ -112,3 +112,4 @@ The tags for each are laid out as follows:
 - `col` - custom-colors (`<col:h1>Some Text!`)
 - `symbol` - symbol-icons (`<symbol:star>`)
 - `rp` - resource-pack-icons (`<rp:logo>`)
+- `sc` and `smallcaps` - smallcaps (`<sc>Some Text!</sc>` - will return sᴏᴍᴇ ᴛᴇxᴛ!)
