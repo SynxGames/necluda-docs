@@ -1,0 +1,8 @@
+{
+  "label": "Premium Plugins",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Information regarding paid plugins"
+  }
+}
