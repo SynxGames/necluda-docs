@@ -71,20 +71,17 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'ossSidebar',
+            href: "/docs/open-source/main",
             position: 'left',
             label: 'Open Source',
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'premiumSidebar',
+            href: "/docs/premium/main",
             position: 'left',
             label: 'Premium',
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'enterpriseSidebar',
+            href: "/docs/enterprise/soon",
             position: 'left',
             label: 'Pricing & Enterprise',
           },
